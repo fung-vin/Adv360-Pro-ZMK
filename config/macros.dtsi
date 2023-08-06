@@ -1,3 +1,9 @@
+macro_fullscreen: macro_fullscreen{
+compatible = "zmk,behavior-macro";
+label = "macro_fullscreen";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&sk LALT>, <&kp A>;
+};
 macro_1_password: macro_1_password{
 compatible = "zmk,behavior-macro";
 label = "macro_1_password";
@@ -8,7 +14,7 @@ macro_paste_app: macro_paste_app{
 compatible = "zmk,behavior-macro";
 label = "macro_paste_app";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LGUI>, <&kp V>;
+bindings = <&sk LG(LA(V))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
