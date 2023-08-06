@@ -2,7 +2,7 @@ macro_fullscreen: macro_fullscreen{
 compatible = "zmk,behavior-macro";
 label = "macro_fullscreen";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&sk LALT>, <&kp A>;
+bindings = <&kp LC(LA(A))>;
 };
 macro_1_password: macro_1_password{
 compatible = "zmk,behavior-macro";
